@@ -1,0 +1,17 @@
+version: '3'
+services:
+  database:
+    image: postgres:13.7
+    container_name: image-conversor-database
+    ports:
+      - "5432:5432"
+    volumes:
+      - image-conversor-database:/var/lib/postgresql@13/data
+    environment:
+      POSTGRES_DB: image-conversor-database
+      POSTGRES_USER: image-conversor
+      POSTGRES_PASSWORD: image-conversor
+
+
+volumes:
+  image-conversor-database:
