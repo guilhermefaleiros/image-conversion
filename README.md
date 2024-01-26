@@ -115,7 +115,7 @@ Este é um projeto construído como entregável do projeto prático da disciplin
 
 - **Descrição**: Com este serviço é possível fazer o download de imagens previamente processadas, para isso é necessário fornecer o ID da imagem processada e as credenciais de acesso do cliente.
 - **URL**: `/processed-images/<ID DA IMAGEM PROCESSADA>/download`
-- **Método**: `POST`
+- **Método**: `GET`
 - **Estrutura**:
   - **Headers**:
     ```plaintext
