@@ -71,7 +71,7 @@ Este é um projeto construído como entregável do projeto prático da disciplin
 ### Aplicação de efeitos em imagens
 
 - **Descrição**: É possível aplicar efeitos em imagens previamente cadastradas na API, dessa forma é necessário passar o ID da imagem e uma lista de efeitos que devem ser aplicados. É importante ressaltar que este serviço permite processar um lote de imagens fornecidas.
-- **URL**: `/imagem/process`
+- **URL**: `/image/process`
 - **Método**: `POST`
     - **Headers**:
     ```plaintext
