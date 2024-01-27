@@ -48,7 +48,7 @@ Este é um projeto construído como entregável do projeto prático da disciplin
 ### Upload de Imagem
 
 - **Descrição**: Antes de realizar o processamento de efeitos nas imagens, é necessário fazer upload previamente das imagens que serão utilizadas. Para isso, é necessário fornecer o ID do cliente e a chave de acesso gerada no cadastro.
-- **URL**: `/generate-token`
+- **URL**: `/image`
 - **Método**: `POST`
 - **Estrutura**:
     - **Corpo da requisição**:
